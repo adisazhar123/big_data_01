@@ -67,6 +67,7 @@ Konfigurasi node MySQL Connector adalah sebagai berikut:
 - Hostname: localhost
 - Database name: bdt_01
 - Port: 3306
+
 ![node mysql](node_mysql.png "node_mysql")
 ![node mysql](node_mysql_2.png "node_mysql")
 
@@ -74,6 +75,7 @@ Konfigurasi node CSV Reader adalah sebagai berikut:
 - Input location: /home/adis/Downloads/crimes-in-boston/crime.csv
 - Has Column Header checked
 - Has Row Header unchecked
+
 ![node csv](node_csv.png "node_csv")
 ![node csv](node_csv_2.png "node_csv")
 
@@ -89,6 +91,7 @@ Konfigurasi node DB Table Selector adalah sebagai berikut:
 - Schema: bdt_01
 - Table: offence_codes
 - SQL Statement: ``SELECT * FROM #table# LIMIT 1000``
+
 ![node db table selector](node_db_table_selector.png "node_db_table_selector")
 ![node db table selector](node_db_table_selector_2.png "node_db_table_selector")
 
@@ -99,6 +102,7 @@ Selanjutnya adalah untuk mengeksekusi query yang dicatat pada node DB Table Sele
  ![node db reader](node_db_reader.png "node_db_reader")
  
  Tekan tombol Execute pada node DB Reader. Berikut adalah hasilnya:
+ 
   ![node db reader](node_db_reader_2.png "node_db_reader")
 
  Tahap membaca data dari sumber yang berbeda sudah berhasil dilakukan. Berikutnya adalah untuk melakukan *join* dari dua sumber data. Prosedur tersebut dapat dimulai dengan menggunakan node Joiner. 
