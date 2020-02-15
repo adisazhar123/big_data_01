@@ -48,10 +48,13 @@ create table bdt_01.offence_codes
 );
 ``
 2. Import data dari csv ke table *offence_codes*. Dapat menggunakan script atau tools. Saya menggunakan fitur import dari aplikasi Datagrip.
+
 3. Cek bahwa data berhasil diimport.
+
 ``
 select * from offence_codes;
 ``
+
 ![offence codes data](pics/offence_codes_data.png "offence codes data")
 
 
