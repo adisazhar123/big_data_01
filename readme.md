@@ -7,7 +7,7 @@ Big Data
 # ETL menggunakan Knime
 
 ## Penjelasan Dataset
-Dataset yang saya gunakan adalah Crimes in Boston. Dataset ini terdiri dari 2 table. Table tersebut adalah *offence_codes* dan *crime*. Table *offence_codes* berisi tipe kejahatan yang direpresentasikan dalam bentuk kode. Table *crime* berisi kejahatan yang telah dilaporkan ke polisi daerah Boston. Total jumlah baris yang ada pada table *offence_codes* adalah 576, dan *crime* memiliki 319 073.
+Dataset yang saya gunakan adalah Crimes in Boston (https://www.kaggle.com/AnalyzeBoston/crimes-in-boston). Dataset ini terdiri dari 2 table. Table tersebut adalah *offence_codes* dan *crime*. Table *offence_codes* berisi tipe kejahatan yang direpresentasikan dalam bentuk kode. Table *crime* berisi kejahatan yang telah dilaporkan ke polisi daerah Boston. Total jumlah baris yang ada pada table *offence_codes* adalah 576, dan *crime* memiliki 319 073.
 
 Table *offence_codes* memiliki 2 kolom, yaitu: *code* yang merupakan kode dan *name* yang merupakan deskripsi kejahatan. Selanjutnya, table *crime* memiliki 17 kolom, yaitu: 
 - *incident_number*: merepresentasikan *identifier* laporan kejahatan
