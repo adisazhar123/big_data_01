@@ -152,7 +152,12 @@ Hasil eksekusi node GroupBy:
 
 ![node group by](pics/node_group_by_4.png "node_group_by")
 
+## Evaluation
+
 Pada tahap ini, dapat disimpulkan bahwa proses join berhasil.
+
+
+## Deployment
 
 Tahap terkahir adalah menyimpan hasil join ke file dan database. Dapat menggunakan node CSV Writer dan node DB Writer. Sambungkan output node GroupBy ke input node CSV Writer dan node DB Writer, dan output node MySQL Connector ke input node DB Writer.
 
